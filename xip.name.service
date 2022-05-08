@@ -1,0 +1,15 @@
+[Unit]
+Description=xip.name service
+[Service]
+Type=simple
+User=root
+Group=root
+EnvironmentFile=-/etc/xip/xip.name.conf
+ExecStart=/usr/bin/xip.name $OPTIONS
+Restart=always
+LimitAS=infinity
+LimitRSS=infinity
+LimitCORE=infinity
+LimitNOFILE=655360
+[Install]
+WantedBy=multi-user.target

@@ -1,6 +1,9 @@
 xip.name
 ========
 
+> fork from https://github.com/peterhellberg/xip.name add go mod && rpm support
+
+
 > The service was shut down on 2021-05-17 after Google marked the entire domain as “Social engineering content” since
 > (working as intended) you could link to for example http://1.1.1.1.xip.name/ and getting redirected to <http://1.1.1.1/>
 
