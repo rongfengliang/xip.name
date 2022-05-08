@@ -1,10 +1,10 @@
 [Unit]
-Description=xip.name service
+Description=xip service
 [Service]
 Type=simple
 User=root
 Group=root
-EnvironmentFile=-/etc/xip/xip.name.conf
+EnvironmentFile=-/etc/xip/xip.conf
 ExecStart=/usr/bin/xip.name $OPTIONS
 Restart=always
 LimitAS=infinity
